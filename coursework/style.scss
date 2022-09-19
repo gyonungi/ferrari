@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    padding-left: calc(50% - 1200px);
+    padding-right: calc(50% - 1200px);
+}
+.random-bck{
+    width: 140vh;
+    height: 101vh;
+    text-align: center;
+    color: #1ad45f;
+    font-size: 20px; 
+    display: grid;
+    align-content: center;
+}
