@@ -12,11 +12,13 @@ startButton.addEventListener('click',function(){
     	console.log(checkedRadio);
 		if (checkedRadio) {
            		 window.gameState.level = checkedRadio.value;
-       		 	 window.location.href = "/game.html"
+       			 window.location.href = "/game.html"
     }else{
-        alert('Выберите уровень сложности');
+        	alert('Выберите уровень сложности');
     }
     
     })
 
-  
+  window.gameState = {
+    level: 1
+  }
